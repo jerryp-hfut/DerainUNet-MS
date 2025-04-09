@@ -51,6 +51,8 @@ archive/
     └── gt_test/         # Test clean images
 ```
 
+The dataset that we utilized is [DeRaindrop](http://github.com/rui1996/DeRaindrop).
+
 ---
 
 ## 🚀 Training
