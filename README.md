@@ -12,7 +12,7 @@ A UNet-based deep learning model for image deraindrop removal, implemented using
 
 ## 🧠 Overview
 
-**DerainUNet-MS** is a deep learning model designed to remove raindrops from images. It is based on the U-Net architecture and implemented using [MindSpore](https://www.mindspore.cn/), a unified AI framework by Huawei.
+**DerainUNet-MS** is a deep learning model used to remove raindrops from images. It is based on the U-Net architecture and implemented using [MindSpore](https://www.mindspore.cn/), a unified AI framework by **Huawei**.
 
 ---
 
@@ -20,10 +20,14 @@ A UNet-based deep learning model for image deraindrop removal, implemented using
 
 ### ✅ Prerequisites
 
-- Python >= 3.7  
-- MindSpore >= 1.8
+- CPU : 24 vCPU Kunpeng-920
+- GPU : 910B2x鲲鹏920(64GB)
+- OS : Ubuntu 22.04
+- CANN : 8.0.0
+- Python : 3.10
+- MindSpore ：2.5.0 (latest version)
 
-Follow the [MindSpore installation guide](https://www.mindspore.cn/install) to set up your environment.
+For more details, follow the [MindSpore installation guide](https://www.mindspore.cn/install) to set up your environment!
 
 ### 📦 Additional Dependencies
 
