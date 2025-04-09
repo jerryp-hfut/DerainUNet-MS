@@ -73,6 +73,8 @@ You can configure training parameters in `train.py`:
 
 The best model will be saved as `unet_best.ckpt` based on PSNR performance on the test set.
 
+You can Also get the pretrained weight from Baidu Netdisk here: [unet_best](https://pan.baidu.com/s/1dnDMRqGB1hOU_NH1H8R_iQ?pwd=xnxx)
+
 ---
 
 ## 🧪 Testing
@@ -80,7 +82,8 @@ The best model will be saved as `unet_best.ckpt` based on PSNR performance on th
 To test the model with your own images:
 
 1. Place your input images in the `imgs/` folder.
-2. Run the test script:
+2. Make sure the `unet_best.ckpt` is placed in the root folder.
+3. Run the test script:
 
 ```bash
 python test.py
